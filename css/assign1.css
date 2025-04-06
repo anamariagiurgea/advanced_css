@@ -1,10 +1,10 @@
 #second-div p:nth-of-type(odd) {
     color: red;
 }
+
 #second-div p:nth-of-type(even) {
     color: blue;
 }
-
 
 body>div>p:nth-of-type(1)::after {
     content: "New";
