@@ -1,0 +1,40 @@
+*{
+    padding: 10px;
+}
+body{
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+}
+
+
+div {
+    border: solid red 10px;
+    margin: 20px;
+}
+div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align:left;
+    text-indent: 10px;
+}
+
+div {
+    background-color: blueviolet;
+}
+
+div>div {
+    background-color: blue;
+}
+
+
+div>div>div {
+    background-color: brown;
+}
+p+div{
+    color: red;
+}
+div div div p{
+    color : green
+}
