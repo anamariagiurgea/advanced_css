@@ -11,6 +11,6 @@ body>div>p:nth-child(n+1)::after {
     color: yellow;
 }
 
-body>p:nth-of-type(3):hover {
+body>p:last-child:hover {
     font-style: italic;
 }
