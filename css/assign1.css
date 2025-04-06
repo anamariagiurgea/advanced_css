@@ -17,5 +17,5 @@ body>div>p:nth-of-type(2)::after {
 }
 
 body>p:nth-of-type(3):hover {
-    font-style: italic !important;
+    font-style: italic;
 }
