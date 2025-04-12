@@ -50,7 +50,7 @@ body {
     filter: blur(40px);
 
 }
-.zoomin{
+.zoomout{
     content: "";
     position: absolute;
     background-color: #b97aff;
