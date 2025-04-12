@@ -47,7 +47,8 @@ body {
 }
 
 .cerc span:nth-child(3) {
-    filter: blur(40px);
+    filter: blur(60px);
+
 
 }
 .zoom{
@@ -57,7 +58,7 @@ body {
     border-radius: 50%;
     inset: 20px;
     z-index: 10;
-    filter: brightness(0.08);
+    filter: brightness(0.1);
     animation: zoom 2s ease-out infinite;
 }
 
