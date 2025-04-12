@@ -51,7 +51,8 @@ body {
 
 
 }
-.zoom{
+
+#zoom {
     content: "";
     position: absolute;
     background-color: #b97aff;
@@ -64,16 +65,17 @@ body {
 
 @keyframes zoom {
     0% {
-      transform: scale(0);
-      opacity: 0;
-      
+        transform: scale(0);
+        opacity: 0;
+
     }
-  
+
     50% {
-      transform: scale(0);
-      opacity: 0;
-        }
-  }
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
 @keyframes rotate {
     from {
 
