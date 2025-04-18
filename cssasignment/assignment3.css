@@ -1,0 +1,77 @@
+Html,
+body {
+   background-color: #e7e7e7;
+    margin:5px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+       
+}
+
+h1 {
+    color: grey;
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+
+}
+
+.galerie {
+    display:grid;
+    grid-template-columns:  auto auto auto auto auto;
+    row-gap:2.5rem;
+    column-gap: 2.5rem;
+    align-items: center;
+   
+    
+  
+}
+
+.poza {
+    width: 150px;
+    align-content: center;
+    background-color: #ffffff;
+    border-radius: 7px;
+    
+}
+
+.poza img {
+    width: 150px;
+    background-color: #8fbcf0;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+   }
+
+.poza p {
+    margin: 0.4px;
+    border-radius: 7px;
+    font-size: 13px;
+    text-align: center;
+}
+ 
+@media screen and (max-width: 1024px) {
+    .galerie {
+    grid-template-columns: repeat(5, 1fr);
+    
+    }
+    
+    }
+     
+    @media screen and (max-width: 768px) {
+    .galerie {
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .galerie2 {
+        font-size: 20px;
+    }
+}
+    
+     
+    @media screen and (max-width: 414px) {
+    .galerie {
+    grid-template-columns: repeat(1, 1fr);
+    
+      }
+    .galerie2 {
+        font-size: 20px;
+    }
+    
+}
