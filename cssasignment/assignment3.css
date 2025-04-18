@@ -46,7 +46,7 @@ h1 {
     font-size: 13px;
     text-align: center;
 }
- 
+
 @media screen and (max-width: 1024px) {
     .galerie {
     grid-template-columns: repeat(5, 1fr);
@@ -54,7 +54,7 @@ h1 {
     }
     .galerie2 {
         font-size: 20px;
-        overflow: normal;
+        
     }
     
     }
