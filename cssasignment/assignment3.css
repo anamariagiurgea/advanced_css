@@ -1,9 +1,9 @@
 Html,
 body {
-   background-color: #e7e7e7;
-    margin:5px;
+    background-color: white;
     font-family: 'Mulish', sans-serif;
     font-weight: normal;
+    
        
 }
 
@@ -17,8 +17,8 @@ h1 {
 .galerie {
     display:grid;
     grid-template-columns:  auto auto auto auto auto;
-    row-gap:2.5rem;
-    column-gap: 2.5rem;
+    row-gap:2rem;
+    column-gap: 2rem;
     align-items: center;
    
     
@@ -26,15 +26,15 @@ h1 {
 }
 
 .poza {
-    width: 150px;
+    width: 160px;
     align-content: center;
-    background-color: #ffffff;
+    background-color: #e4dedebb;
     border-radius: 7px;
     
 }
 
 .poza img {
-    width: 150px;
+    width: 160px;
     background-color: #8fbcf0;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
@@ -52,6 +52,10 @@ h1 {
     grid-template-columns: repeat(5, 1fr);
     
     }
+    .galerie2 {
+        font-size: 20px;
+        overflow: normal;
+    }
     
     }
      
@@ -60,7 +64,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     }
     .galerie2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
     
@@ -71,7 +75,7 @@ h1 {
     
       }
     .galerie2 {
-        font-size: 20px;
+        font-size: 10px;
     }
     
 }
